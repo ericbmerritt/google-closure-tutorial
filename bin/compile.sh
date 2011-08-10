@@ -1,4 +1,4 @@
 #! /bin/sh
 
-mkdir -p ./war/js/deps/
-cljsc "src/" '{:output-dir "war/js" :output-to "war/js/deps/tutorial.js"}'
+mkdir -p ./war/js/unoptimized/deps/
+cljsc "src/" '{:output-dir "war/js/unoptimized" :output-to "war/js/unoptimized/deps/tutorial.js"}'
